@@ -15,6 +15,21 @@
 		FD0C6C512281E5AD0001B865 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0C6C4F2281E5AD0001B865 /* LaunchScreen.storyboard */; };
 		FD0C6C5C2281E5AD0001B865 /* ToDoDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C6C5B2281E5AD0001B865 /* ToDoDemoTests.swift */; };
 		FD0C6C672281E5AD0001B865 /* ToDoDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C6C662281E5AD0001B865 /* ToDoDemoUITests.swift */; };
+		FDC17F792281EAA4005BC935 /* ListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC17F772281EAA4005BC935 /* ListingViewController.swift */; };
+		FDC17F7A2281EAA4005BC935 /* ListingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDC17F782281EAA4005BC935 /* ListingViewController.xib */; };
+		FDC17F7C2281EAB4005BC935 /* ListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC17F7B2281EAB4005BC935 /* ListingViewModel.swift */; };
+		FDC17F7F22820A5D005BC935 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC17F7E22820A5D005BC935 /* Todo.swift */; };
+		FDDFDA0D2282BC70008AF096 /* AddTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFDA0B2282BC70008AF096 /* AddTodoViewController.swift */; };
+		FDDFDA0E2282BC70008AF096 /* AddTodoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDDFDA0C2282BC70008AF096 /* AddTodoViewController.xib */; };
+		FDDFDA122282CA06008AF096 /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFDA102282CA06008AF096 /* TodoCell.swift */; };
+		FDDFDA132282CA06008AF096 /* TodoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDDFDA112282CA06008AF096 /* TodoCell.xib */; };
+		FDDFDA162282CB98008AF096 /* SpecialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFDA152282CB98008AF096 /* SpecialCell.swift */; };
+		FDDFDA192282E9A5008AF096 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFDA182282E9A5008AF096 /* AppCoordinator.swift */; };
+		FDDFDA1B2282EE68008AF096 /* AddTodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFDA1A2282EE68008AF096 /* AddTodoViewModel.swift */; };
+		FDDFDA1E2282F61F008AF096 /* BindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFDA1D2282F61F008AF096 /* BindableType.swift */; };
+		FDDFDA212283003E008AF096 /* UITextField+Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFDA202283003E008AF096 /* UITextField+Padding.swift */; };
+		FDDFDA232283084C008AF096 /* AddTodoViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFDA222283084C008AF096 /* AddTodoViewModelImpl.swift */; };
+		FDDFDA2522830866008AF096 /* ListingViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFDA2422830866008AF096 /* ListingViewModelImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +70,21 @@
 		FD0C6C622281E5AD0001B865 /* ToDoDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0C6C662281E5AD0001B865 /* ToDoDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDemoUITests.swift; sourceTree = "<group>"; };
 		FD0C6C682281E5AD0001B865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC17F772281EAA4005BC935 /* ListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingViewController.swift; sourceTree = "<group>"; };
+		FDC17F782281EAA4005BC935 /* ListingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListingViewController.xib; sourceTree = "<group>"; };
+		FDC17F7B2281EAB4005BC935 /* ListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingViewModel.swift; sourceTree = "<group>"; };
+		FDC17F7E22820A5D005BC935 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		FDDFDA0B2282BC70008AF096 /* AddTodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoViewController.swift; sourceTree = "<group>"; };
+		FDDFDA0C2282BC70008AF096 /* AddTodoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddTodoViewController.xib; sourceTree = "<group>"; };
+		FDDFDA102282CA06008AF096 /* TodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
+		FDDFDA112282CA06008AF096 /* TodoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoCell.xib; sourceTree = "<group>"; };
+		FDDFDA152282CB98008AF096 /* SpecialCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialCell.swift; sourceTree = "<group>"; };
+		FDDFDA182282E9A5008AF096 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		FDDFDA1A2282EE68008AF096 /* AddTodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoViewModel.swift; sourceTree = "<group>"; };
+		FDDFDA1D2282F61F008AF096 /* BindableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableType.swift; sourceTree = "<group>"; };
+		FDDFDA202283003E008AF096 /* UITextField+Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Padding.swift"; sourceTree = "<group>"; };
+		FDDFDA222283084C008AF096 /* AddTodoViewModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoViewModelImpl.swift; sourceTree = "<group>"; };
+		FDDFDA2422830866008AF096 /* ListingViewModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingViewModelImpl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +163,11 @@
 		FD0C6C452281E5AC0001B865 /* ToDoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FDDFDA172282E992008AF096 /* Coordinators */,
+				FDC17F7D22820A2C005BC935 /* Models */,
+				FDC17F752281EA7E005BC935 /* Scenes */,
+				FDDFDA142282CB86008AF096 /* Helpers */,
+				FDDFDA1F22830032008AF096 /* Extensions */,
 				FD0C6C742281E5CF0001B865 /* Resources */,
 				FD0C6C752281E5DB0001B865 /* Supporting Files */,
 			);
@@ -173,6 +208,80 @@
 				FD0C6C522281E5AD0001B865 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDC17F752281EA7E005BC935 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FDC17F762281EA88005BC935 /* Listing */,
+				FDDFDA0A2282BC5A008AF096 /* AddTodo */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		FDC17F762281EA88005BC935 /* Listing */ = {
+			isa = PBXGroup;
+			children = (
+				FDDFDA0F2282C9E9008AF096 /* Cells */,
+				FDC17F772281EAA4005BC935 /* ListingViewController.swift */,
+				FDC17F782281EAA4005BC935 /* ListingViewController.xib */,
+				FDC17F7B2281EAB4005BC935 /* ListingViewModel.swift */,
+				FDDFDA2422830866008AF096 /* ListingViewModelImpl.swift */,
+			);
+			path = Listing;
+			sourceTree = "<group>";
+		};
+		FDC17F7D22820A2C005BC935 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FDC17F7E22820A5D005BC935 /* Todo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FDDFDA0A2282BC5A008AF096 /* AddTodo */ = {
+			isa = PBXGroup;
+			children = (
+				FDDFDA0B2282BC70008AF096 /* AddTodoViewController.swift */,
+				FDDFDA0C2282BC70008AF096 /* AddTodoViewController.xib */,
+				FDDFDA1A2282EE68008AF096 /* AddTodoViewModel.swift */,
+				FDDFDA222283084C008AF096 /* AddTodoViewModelImpl.swift */,
+			);
+			path = AddTodo;
+			sourceTree = "<group>";
+		};
+		FDDFDA0F2282C9E9008AF096 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FDDFDA102282CA06008AF096 /* TodoCell.swift */,
+				FDDFDA112282CA06008AF096 /* TodoCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FDDFDA142282CB86008AF096 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FDDFDA152282CB98008AF096 /* SpecialCell.swift */,
+				FDDFDA1D2282F61F008AF096 /* BindableType.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FDDFDA172282E992008AF096 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				FDDFDA182282E9A5008AF096 /* AppCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		FDDFDA1F22830032008AF096 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FDDFDA202283003E008AF096 /* UITextField+Padding.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,7 +394,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDDFDA0E2282BC70008AF096 /* AddTodoViewController.xib in Resources */,
+				FDC17F7A2281EAA4005BC935 /* ListingViewController.xib in Resources */,
 				FD0C6C512281E5AD0001B865 /* LaunchScreen.storyboard in Resources */,
+				FDDFDA132282CA06008AF096 /* TodoCell.xib in Resources */,
 				FD0C6C4E2281E5AD0001B865 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +450,9 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ToDoDemoUITests/Pods-ToDoDemoUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/XCoordinator/XCoordinator.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
@@ -345,6 +460,9 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCoordinator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 			);
@@ -406,6 +524,9 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ToDoDemoTests/Pods-ToDoDemoTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/XCoordinator/XCoordinator.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
@@ -413,6 +534,9 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCoordinator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 			);
@@ -431,9 +555,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ToDoDemo/Pods-ToDoDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
+				"${BUILT_PRODUCTS_DIR}/ActionKit/ActionKit.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
@@ -444,9 +571,12 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
@@ -465,6 +595,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD0C6C472281E5AC0001B865 /* AppDelegate.swift in Sources */,
+				FDDFDA122282CA06008AF096 /* TodoCell.swift in Sources */,
+				FDDFDA232283084C008AF096 /* AddTodoViewModelImpl.swift in Sources */,
+				FDDFDA212283003E008AF096 /* UITextField+Padding.swift in Sources */,
+				FDDFDA2522830866008AF096 /* ListingViewModelImpl.swift in Sources */,
+				FDDFDA0D2282BC70008AF096 /* AddTodoViewController.swift in Sources */,
+				FDC17F792281EAA4005BC935 /* ListingViewController.swift in Sources */,
+				FDDFDA1E2282F61F008AF096 /* BindableType.swift in Sources */,
+				FDDFDA192282E9A5008AF096 /* AppCoordinator.swift in Sources */,
+				FDC17F7C2281EAB4005BC935 /* ListingViewModel.swift in Sources */,
+				FDDFDA162282CB98008AF096 /* SpecialCell.swift in Sources */,
+				FDDFDA1B2282EE68008AF096 /* AddTodoViewModel.swift in Sources */,
+				FDC17F7F22820A5D005BC935 /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

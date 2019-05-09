@@ -2,6 +2,7 @@ PODS:
   - Action (3.11.0):
     - RxCocoa (~> 4.0)
     - RxSwift (~> 4.0)
+  - ActionKit (2.5.1)
   - IQKeyboardManagerSwift (6.2.0)
   - Kingfisher (4.10.1)
   - Nimble (8.0.1)
@@ -9,6 +10,11 @@ PODS:
     - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
   - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
   - Quick (2.0.0)
+  - Realm (3.14.1):
+    - Realm/Headers (= 3.14.1)
+  - Realm/Headers (3.14.1)
+  - RealmSwift (3.14.1):
+    - Realm (= 3.14.1)
   - RxCocoa (4.5.0):
     - RxSwift (>= 4.4.2, ~> 4.4)
   - RxSwift (4.5.0)
@@ -20,21 +26,26 @@ PODS:
 
 DEPENDENCIES:
   - Action (= 3.11.0)
+  - ActionKit (= 2.5.1)
   - IQKeyboardManagerSwift (= 6.2.0)
   - Kingfisher (= 4.10.1)
   - Nimble (= 8.0.1)
   - Quick (= 2.0.0)
+  - RealmSwift (= 3.14.1)
   - XCGLogger (= 6.1.0)
   - XCoordinator/Core (= 1.3.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Action
+    - ActionKit
     - IQKeyboardManagerSwift
     - Kingfisher
     - Nimble
     - ObjcExceptionBridging
     - Quick
+    - Realm
+    - RealmSwift
     - RxCocoa
     - RxSwift
     - XCGLogger
@@ -42,16 +53,19 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Action: 689181e4c3f6566844178d8a7da6fef39a9597fc
+  ActionKit: 6f4f5fbab3a76aa05e8df8d66145db4fe9e9b8df
   IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   Nimble: 45f786ae66faa9a709624227fae502db55a8bdd0
   ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
   Quick: ce1276c7c27ba2da3cb2fd0cde053c3648b3b22d
+  Realm: e12c9c2387d05c5bba3a9c394838f5870e85763b
+  RealmSwift: a82eab9b04c3e1616082c7e17aa300740847769c
   RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   XCGLogger: 7f7f43f15dfe3a305fa1342b7dc29af656289abd
   XCoordinator: 9083911c1b8a84f24447a5fa81da87c319294e5b
 
-PODFILE CHECKSUM: 761fbbd3a35ee50d4e97e64cf4d2532e21a3f226
+PODFILE CHECKSUM: d4b6c970a67a5a8346feb71faa983cf2eade150a
 
 COCOAPODS: 1.5.3

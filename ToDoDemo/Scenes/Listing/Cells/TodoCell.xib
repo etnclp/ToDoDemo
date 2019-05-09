@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="46" id="KGk-i7-Jjw" customClass="TodoCell" customModule="ToDoDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="45.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uEu-p6-nIF">
+                        <rect key="frame" x="8" y="0.0" width="359" height="43.5"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRV-3N-ouT">
+                                <rect key="frame" x="16" y="10" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="LzO-cy-HIE"/>
+                                    <constraint firstAttribute="height" constant="24" id="tNE-D6-iid"/>
+                                </constraints>
+                                <state key="normal" image="checkbox_outline"/>
+                                <state key="selected" image="checkbox_inline"/>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Merhaba" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4g-Ci-ygh">
+                                <rect key="frame" x="56" y="6" width="293" height="33.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="33" id="Elf-wU-crr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="a4g-Ci-ygh" firstAttribute="leading" secondItem="hRV-3N-ouT" secondAttribute="trailing" constant="16" id="GxD-aD-rq4"/>
+                            <constraint firstAttribute="bottom" secondItem="a4g-Ci-ygh" secondAttribute="bottom" constant="4" id="NbT-Em-OLf"/>
+                            <constraint firstAttribute="trailing" secondItem="a4g-Ci-ygh" secondAttribute="trailing" constant="10" id="Ten-V7-Ytg"/>
+                            <constraint firstItem="hRV-3N-ouT" firstAttribute="top" relation="lessThanOrEqual" secondItem="uEu-p6-nIF" secondAttribute="top" constant="16" id="WcJ-qq-E4Q"/>
+                            <constraint firstItem="a4g-Ci-ygh" firstAttribute="top" secondItem="uEu-p6-nIF" secondAttribute="top" constant="6" id="rQp-ku-0iJ"/>
+                            <constraint firstItem="hRV-3N-ouT" firstAttribute="leading" secondItem="uEu-p6-nIF" secondAttribute="leading" constant="16" id="um6-5n-mn2"/>
+                            <constraint firstItem="hRV-3N-ouT" firstAttribute="centerY" secondItem="uEu-p6-nIF" secondAttribute="centerY" priority="750" id="v9C-FN-tV9"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="uEu-p6-nIF" secondAttribute="trailing" constant="8" id="HiY-9G-sUM"/>
+                    <constraint firstItem="uEu-p6-nIF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Uw5-40-q2M"/>
+                    <constraint firstItem="uEu-p6-nIF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="YMZ-DO-Ryf"/>
+                    <constraint firstAttribute="bottom" secondItem="uEu-p6-nIF" secondAttribute="bottom" constant="2" id="dYj-UT-8fV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="checkButton" destination="hRV-3N-ouT" id="58z-mb-AKn"/>
+                <outlet property="titleTextView" destination="a4g-Ci-ygh" id="I4t-7v-fNt"/>
+            </connections>
+            <point key="canvasLocation" x="66.400000000000006" y="123.23838080959521"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="checkbox_inline" width="48" height="48"/>
+        <image name="checkbox_outline" width="48" height="48"/>
+    </resources>
+</document>
